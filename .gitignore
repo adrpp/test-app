@@ -2,3 +2,7 @@
 /venv
 /.idea
 /tests
+
+*.py[cod]
+**/*.pyc
+**/__pycache__
