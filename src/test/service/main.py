@@ -16,8 +16,7 @@ logger = getLogger('test.service')
 
 app = FastAPI(
     on_startup=[start_up_asyncio_client],
-    on_shutdown=[close_asyncio_client],
-    debug=True)
+    on_shutdown=[close_asyncio_client])
 app.add_middleware(RequestIdMiddleware)
 
 
