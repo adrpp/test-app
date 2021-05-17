@@ -1,6 +1,6 @@
 # test-app
 
-FastApi based service doing async calls in slightly different favor.
+FastApi based service doing async calls in slightly different flavor.
 
 ## build & run
 ``make up``
